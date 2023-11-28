@@ -1,0 +1,343 @@
+@font-face {
+    font-family: nimbus;
+    src: url(./NimbusSanL-Reg.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: nimbus;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    padding: 2vw 9vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8vw;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+#navleft{
+    display: flex;
+    gap: 3vw;
+}
+#navcenter a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1vw;
+}
+
+#hero{
+    width: 100%;
+    /* height: 100px; */
+    height: fit-content;
+    align-items: center;
+    padding: 0 9vw;
+    margin-top: 16vw;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+#hero #sustain{
+    width: 12vw;
+    /* background-color: red; */
+}
+#sustain h2{
+    font-size: 2vw;
+}
+#sustain p{
+    line-height: 0.9vw;
+    font-weight: 100;
+    text-transform: capitalize;
+    letter-spacing: -0.5px;
+    font-size: 0.9vw;
+    opacity: 0.5;
+}
+#sustainwrap{
+    margin-top: 1vw;
+    width: 100%;
+    height: 14vw;
+    position: relative;
+    overflow: hidden;
+    /* background-color: green; */
+}
+#sustainwrap img{
+    object-fit: cover;
+    
+    object-position: center;
+    height: 100%;width: 100%;
+}
+
+#ep{
+    width: 24vw;
+    min-height: 35vw;
+    position: relative;
+}
+#ep #headings{
+    position: absolute;
+    top: -13%;
+    left: -20%;
+}
+
+
+#ep h1{
+    font-weight: 500;
+    font-size: 4vw;
+    letter-spacing: -0.3vw;
+    line-height: 1;
+}
+#ep img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#ep p{
+    
+    font-size: 1.1vw;
+    line-height: 1.3vw;
+    color: black;
+    margin-top: 20px;
+    width: 40%;
+    font-weight: 200;
+    letter-spacing: -0.07vw;
+}
+#visit{
+    display: flex;
+    gap: 1vw;
+    font-weight: 100;
+    /* background-color: red; */
+    /* height: 100%; */
+    align-items: center;
+    justify-content: center;
+}
+
+#visit h3{
+    font-weight: 100;
+    font-size: 1vw;
+}
+#circlev{
+    /* background-color: red; */
+    border: 1px solid #5e5e5e;
+    border-radius: 50%;
+    padding: 0.4vw 0.4vw;
+}
+#circlev i{
+    color: #5e5e5e;
+    font-size: 1.6vw;
+}
+
+#motive{
+    padding: 2vw 9vw;
+   
+}
+#motive h3{
+    text-transform: capitalize;
+    opacity: 0.7;
+}
+#motive p{
+    text-align: right;
+    margin-left: 12vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+    
+    /* display: flex; */
+    /* align-items: center; */
+}
+#motive #onespan{
+    display: inline-block;
+    height: 40px;
+    width: 70px;
+    background-color: red;
+    margin: 0 10px;
+    margin-bottom: -12px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+#motive #onespan img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#motive #twospan{
+    display: inline-block;
+    height: 40px;
+    width: 70px;
+    background-color: red;
+    margin: 0 10px;
+    margin-bottom: -12px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+#motive #twospan img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#motive #threespan{
+    display: inline-block;
+    height: 40px;
+    width: 70px;
+    background-color: red;
+    margin: 0 10px;
+    margin-bottom: -12px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+#motive #threespan img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#pictures{
+    padding: 3vw;
+    padding-left: 17vw;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+#pictures #firstimage{
+    /* background-color: green; */
+    height: fit-content;
+    width: 15vw;
+}
+#firstimage #picimage{
+    height: 25vw;
+    width: 100%;
+    
+}
+
+#firstimage  h1 , #secondimage h1{
+    margin: 0.6vw 0;
+}
+#firstimage  p{
+    font-weight: 100;
+    opacity: 0.8;
+    letter-spacing: -0.5px;
+    width: 75%;
+}
+
+#pictures #secondimage{
+    /* background-color: green; */
+    height: fit-content;
+    width: 30vw;
+}
+#secondimage #picimage{
+    height: 40vw;
+    width: 100%;
+   
+}
+#secondimage  p{
+    font-weight: 100;
+    opacity: 0.8;
+    width: 70%;
+    letter-spacing: -0.5px;
+}
+
+#pictures #picimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 5vw;
+    
+}
+#bimg{
+    width: 65%;
+    height: 60vh;
+
+}
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 70%;
+}
+
+#btext{
+    width: 35%;
+    padding: 0 3vw;
+
+}
+
+#btext h1{
+    font-size: 2vw;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#btext p{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 1vw;
+}
+
+#future{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    flex-direction: column;
+}
+#future video{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+}
+
+
+
+#ftext button{
+    padding: 1vw 2vw;
+    font-size: 0.7vw;
+    border-radius: 100px;
+    margin-top: 1vw;
+    font-weight: 700;
+    background-color: #fff;
+    border: 1px solid #c6c6c6;
+    color: #6f6f6f;
+
+}
